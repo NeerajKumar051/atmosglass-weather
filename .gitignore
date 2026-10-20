@@ -43,3 +43,11 @@ desktop.ini
 # IDE settings
 .idea/
 .vscode/
+.venv/
+node_modules/
+frontend/dist/
+__pycache__/
+.pytest_cache/
+*.bak
+
+
