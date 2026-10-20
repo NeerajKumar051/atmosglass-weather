@@ -1,0 +1,45 @@
+﻿# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python testing and coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node.js and Vite
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Backup and temporary files
+*.bak
+*.tmp
+*.log
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE settings
+.idea/
+.vscode/
